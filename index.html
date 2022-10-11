@@ -1,48 +1,307 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+	<title>Soutenance de stage Mantovani Ludovic 2022</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2
-						<aside class="notes">
-						<p>Some notes</p>
-						</aside>
-						<p>Some slide text</p>
-						<aside class="notes">
-						<p>and some more notes</p>
-					</aside>
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/white.css">
+	<link rel="stylesheet" href="dist/custom.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<img src="assets/logo/logo_3axe_1000.png" style="height: 150px;">
+				<img src="assets/logo/logo_inria_rouge.png" style="height: 150px;">
+				<h3>Soutenance de stage</h3>
+				<p>
+					<small>réalisé du 1er juillet 2022 au 30 septembre 2022<br>
+						par Ludovic Mantovani</small>
+				</p>
+			</section>
+
+			<!-- #region entreprise -->
+			<section>
+				<section>
+					<h3>Pésentation de l'entreprise et de son activité</h3>
 				</section>
-			</div>
+				<section>
+					Institut national de recherche en sciences et technologies du numérique<br>
+					215 équipes-projets
+					<video loop data-autoplay>
+						<source src="assets/video/Inria.mp4" type="video/mp4">
+					</video>
+				</section>
+				<section>
+					Inria localisation France
+					<p>
+					<div class="container">
+						<div class="col">
+							<ul>
+								<li>Côte d'Azur</li>
+								<li>Bordeaux</li>
+								<li>Grenoble</li>
+								<li>Lille</li>
+								<li>Lyon</li>
+								<li>Nancy</li>
+							</ul>
+						</div>
+						<div class="col">
+							<ul>
+								<li>Paris</li>
+								<li>Rennes</li>
+								<li>Saclay</li>
+								<li>Versailles</li>
+							</ul>
+						</div>
+					</div>
+					</p>
+				</section>
+			</section>
+			<!-- #endregion entreprise -->
+
+			<!-- #region cadre-->
+
+			<section>
+				<section>
+					<h3>Cadre de travail</h3>
+				</section>
+				<section>
+					<h4>Locaux</h4>
+					<div class="r-stack">
+						<img class="fragment" data-fragment-index="0" src="/assets/img/photo/20220921_125059.jpg">
+						<img class="fragment" data-fragment-index="1" src="/assets/img/photo/20220921_125449.jpg">
+						<img class="fragment" data-fragment-index="2" src="/assets/img/photo/20220921_125529.jpg">
+						<img class="fragment" data-fragment-index="3" src="/assets/img/photo/20220919_174146.jpg">
+						<!-- 
+						<img class="fragment" data-fragment-index="4" src="/assets/img/photo/20220919_174201.jpg">
+						-->
+					</div>
+				</section>
+				<section>
+					<h4>Groupe de recherche</h4>
+					<p>
+					<div class="container">
+						<div class="col">
+							<img src="assets/logo/logo_loki.png" style="height: 200px;">
+						</div>
+						<div class="col">
+							<p>Equipe de recherche en Interaction Homme-Machine</p>
+						</div>
+					</div>
+					</p>
+				</section>
+				<section>
+					<h4>Esquisse</h4>
+					<p>Illustration des interactions entre des utilisateurs et des systèmes informatiques</p>
+					<img src="/assets/img/Esquisse1.JPG" style="height: 10em;">
+					<!-- <div class="container">				
+						<div class="col">
+							<img src="/assets/img/Esquisse1.JPG" >
+						</div>
+						<div class="col">
+							<img src="/assets/img/Esquisse1.svg" >
+						</div>
+					</div>-->
+					<!--<div class="r-stack">
+						<img class="fragment fade-out" data-fragment-index="0" src="/assets/img/Esquisse1.JPG" style="height: 200px;">
+						<img class="fragment" data-fragment-index="0" src="/assets/img/Esquisse1.svg">
+					</div>-->
+
+
+				</section>
+				<section>
+					<h4>Acteurs</h4>
+					<img src="assets/img/orga.svg">
+				</section>
+			</section>
+			<!-- #endregion cadre-->
+
+			<!-- #region mission-->
+			<section>
+				<section>
+					<h3>Mission</h3>
+				</section>
+				<section>
+					<h4>Production de modèles 3D pour Esquisse</h4>
+					<p>
+					<div class="container">
+						<div class="col">
+							<h5>Avatar</h5>
+							<ul>
+								<li>pseudo-réaliste X2</li>
+								<li>cartoon X2</li>
+								<li>version sans face</li>
+								<li>rig pour pose détection</li>
+							</ul>
+						</div>
+						<div class="col">
+							<h5>Main</h5>
+							<ul>
+								<li>rig pour pose détection</li>
+							</ul>
+						</div>
+					</div>
+					</p>
+				</section>
+				<section>
+					<h4>Pose détection</h4>
+					<img src="/assets/img/pose.png">
+
+				</section>
+			</section>
+			<!-- #endregion mission-->
+
+			<!-- #region realisation-->
+			<section>
+				<section>
+					<h3>Réalisations</h3>
+				</section>
+
+				<section>
+					<h4>Avatar</h4>
+					<div class="sketchfab-embed-wrapper"> <iframe title="Alice" frameborder="0" allowfullscreen
+							mozallowfullscreen="true" webkitallowfullscreen="true"
+							allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+							execution-while-out-of-viewport execution-while-not-rendered web-share width="100%"
+							height="480"
+							src="https://sketchfab.com/models/2d75fcaef0c64a8a8999e38e710e4a93/embed?autospin=1&autostart=1">
+						</iframe>
+					</div>
+
+
+				</section>
+				<section>
+					<h4>Avatar</h4>
+					<div class="sketchfab-embed-wrapper"> <iframe title="Rain Accessories" frameborder="0"
+							allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
+							allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+							execution-while-out-of-viewport execution-while-not-rendered web-share width="100%"
+							height="480"
+							src="https://sketchfab.com/models/3e194c95426045e3ad5fd0939a0fcf4a/embed?autospin=1&autostart=1">
+						</iframe> </div>
+
+
+				</section>
+				<section>
+					<h4>Développement outils</h4>
+
+					<img src="assets/img/tool.JPG">
+
+					<small><a
+							href="https://github.com/ludovicmantovani/BlenderQuickPanel">https://github.com/ludovicmantovani/BlenderQuickPanel</a>
+					</small>
+				</section>
+				<section>
+					<h4>Main V1</h4>
+					<div class="container">
+						<div class="col">
+							<img src="assets/img/rendu/mainv1.png" style="height: 10em;">
+						</div>
+						<div class="col">
+							<img src="assets/img/rendu/mainv1_2.png">
+						</div>
+					</div>
+				</section>
+				<section>
+					<h4>Main V2</h4>
+					<div class="sketchfab-embed-wrapper"> <iframe title="Hand" frameborder="0" allowfullscreen
+							mozallowfullscreen="true" webkitallowfullscreen="true"
+							allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+							execution-while-out-of-viewport execution-while-not-rendered web-share width="100%"
+							height="480"
+							src="https://sketchfab.com/models/f8b5da018e4e42a2a382d107710c6781/embed?autospin=1&autostart=1">
+						</iframe>
+					</div>
+				</section>
+				<section>
+					<h4>Main V2</h4>
+					<div class="container">
+						<div class="col">
+							Revopoint 3d
+							<img src="assets/img/scan3D.jpg">
+						</div>
+						<div class="col">
+							Instant Mesh
+							<img src="assets/img/instantMesh.png">
+						</div>
+					</div>
+				</section>
+				<section>
+					<h4>Main V3</h4>
+					<img src="/assets/img/rendu/mainVincent/5.png" style="width: 75%;">
+				</section>
+			</section>
+			<!-- #endregion realisation-->
+
+			<section>
+				<section>
+					<h3>Pour le plaisir</h3>
+				</section>
+				<section>
+					<div class="sketchfab-embed-wrapper"> <iframe title="Ludo02_fuse" frameborder="0" allowfullscreen
+							mozallowfullscreen="true" webkitallowfullscreen="true"
+							allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+							execution-while-out-of-viewport execution-while-not-rendered web-share width="100%"
+							height="480"
+							src="https://sketchfab.com/models/1184196ff78f412887aeca4e228a11de/embed?autospin=1&autostart=1">
+						</iframe>
+					</div>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h3>Problématiques</h3>
+				</section>
+				<section>
+					<h4>Droit</h4>
+					<img src="/assets/img/licence.png" style="height: 600px;">
+				</section>
+				<section>
+					<h4>Matériel</h4>
+					<img src="/assets/img/photo/20220919_174201.jpg">
+				</section>
+			</section>
+
+			<section>
+
+				<p>Webassembly, GLTF, Draco, Webgl, vectoriel, rig, armature, Inverse Kinematic, scult, retopologie,
+					MediaPipe, physique des vêtements, licences, Visual code, add-on, MakeHuman, Rendu multi-camera,
+					Entités/Composants/Système ...</p>
+
+				<a href="https://sketchfab.com/ludovicmantovani">https://sketchfab.com/ludovicmantovani</a>
+
+				
+
+			</section>
 		</div>
+	</div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+			autoPlayMedia: true,
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
 </html>
